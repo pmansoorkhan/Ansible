@@ -1,0 +1,76 @@
+ <!-- Students Objects -->
+<students> 
+        <student1>
+            <FirstName>Mansoor</FirstName>
+            <MiddleName> KHan</MiddleName>
+            <LastName>Patan </LastName>
+            <DOB>20/04/1992 </DOB>
+            <Email>pmansoorkhan92@gmail.com </Email>
+            <!-- <Address>
+                <Door No> 3-143/4</Door No>
+                <Street Name>Transformer </Street Name>
+                <Village>Bavajipalem </Village>
+                <Mandal>Nizampatnam </Mandal>
+                <District>Bapatla </District>
+                <State>Andhra pradesh </State>
+                <Pincode>522314 </Pincode>
+            </Address> -->
+            <Address>
+                <permAddress> 
+                    <DoorNo> 3-143/4</DoorNo>
+                    <StreetName>Transformer </StreetName>
+                    <Village>Bavajipalem </Village>
+                    <Mandal>Nizampatnam </Mandal>
+                    <District>Bapatla </District>
+                    <State>Andhra pradesh </State>
+                    <Pincode>522314 </Pincode>
+                </permAddress>    
+                <CurrentAddress> 
+                    <DoorNo>5-143/4</DoorNo>
+                    <StreetName>Broadway </StreetName>
+                <Village>devops </Village>
+                <Mandal>Nizampatnam </Mandal>
+                <District>Khazipet </District>
+                <State>Telangana </State>
+                <Pincode>520006 </Pincode>
+                </CurrentAddress>   
+            </Address>
+        </student1>
+
+        <student2>
+            <FirstName>Mehran</FirstName>
+            <MiddleName> KHan</MiddleName>
+            <LastName>Patan </LastName>
+            <DOB>20/04/2022 </DOB>
+            <Email>pmehrankhan92@gmail.com </Email>
+            <!-- <Address>
+                <Door No> 3-143/4</Door No>
+                <Street Name>Transformer </Street Name>
+                <Village>Bavajipalem </Village>
+                <Mandal>Nizampatnam </Mandal>
+                <District>Bapatla </District>
+                <State>Andhra pradesh </State>
+                <Pincode>522314 </Pincode>
+            </Address> -->
+            <Address>
+                <permAddress> 
+                    <DoorNo> 3-143/4</DoorNo>
+                    <StreetName>Transformer </StreetName>
+                    <Village>Bavajipalem </Village>
+                    <Mandal>Nizampatnam </Mandal>
+                    <District>Bapatla </District>
+                    <State>Andhra pradesh </State>
+                    <Pincode>522314 </Pincode>
+                </permAddress>    
+                <CurrentAddress> 
+                    <DoorNo> 5-143/4</DoorNo>
+                    <StreetName>kotamraju </StreetName>
+                <Village>karlapalem </Village>
+                <Mandal>karlapalem </Mandal>
+                <District>Bapatla </District>
+                <State>Andhra Pradesh </State>
+                <Pincode>520006 </Pincode>
+                </CurrentAddress>   
+            </Address>
+        </student2>
+</students>

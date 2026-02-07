@@ -1,0 +1,84 @@
+{
+    "Students":
+    [
+        {
+           "firstName": "Mansoor khan",
+    "dob": "20-04-1992",
+    /* "_comment": "comment text goes here...",*/
+    "address":[
+        {
+            "type":"Permenamt",
+            "flatnumber" : "3-143" ,
+            "street": "Transformer",
+            "village": "Bavajipalem",
+            "Mandal": "Nizampatnam",
+            "District": "Bapatla",
+        },
+        {
+            "type":"Current",
+            "flatnumber" : "3-143",
+            "street": "Transformer",
+            "village": "Bavajipalem",
+            "Mandal": "Nizampatnam",
+            "District": "Bapatla",    
+        }
+    ],
+    "Skill" : [ "Vmware", "Windows", "Shell", "Ansible", "Devops"]  
+        },
+
+        {
+            "firstName": "Mehran khan",
+            "dob": "1-04-2022",
+    /* "_comment": "comment text goes here...",*/
+            "address":[
+        {
+            "type":"Permenamt",
+            "flatnumber" : "3-143" ,
+            "street": "Transformer",
+            "village": "Bavajipalem",
+            "Mandal": "Nizampatnam",
+            "District": "Bapatla",
+        },
+        {
+            "type":"Current",
+            "flatnumber" : "3-143",
+            "street": "Transformer",
+            "village": "Bavajipalem",
+            "Mandal": "Nizampatnam",
+            "District": "Bapatla",    
+        }
+    ],
+    "Skill" : [ "Vmware", "Windows", "Shell", "Ansible", "Devops"] 
+        },
+        {
+            {
+            "firstName": "Mahir khan",
+            "dob": "01-09-2021",
+    /* "_comment": "comment text goes here...",*/
+            "address":[
+        {
+            "type":"Permenamt",
+            "flatnumber" : "3-143" ,
+            "street": "Transformer",
+            "village": "Bavajipalem",
+            "Mandal": "Nizampatnam",
+            "District": "Bapatla",
+        },
+        {
+            "type":"Current",
+            "flatnumber" : "3-143",
+            "street": "Transformer",
+            "village": "Bavajipalem",
+            "Mandal": "Nizampatnam",
+            "District": "Bapatla",    
+        }
+    ],
+    "Skill" : [ "Vmware", "Windows", "Shell", "Ansible", "Devops"] 
+        },
+        }
+    ]
+}
+
+
+
+
