@@ -10,6 +10,6 @@
    - name: ensure nginx  service is enabled and running or not 
      ansible.builtin.service:
       name: nginx
-      enabled: no
+      enabled: yes
       state: restarted
 
