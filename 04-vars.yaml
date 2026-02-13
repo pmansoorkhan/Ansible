@@ -1,13 +1,13 @@
 - name: play level variables
-  hosts: local
-  connection: local
+  hosts: local,web
+  connection: local, web
   vars:
    course: "Devops with AWS"
    duration: "4 months" 
-   time: "morning 7:15 AM"
+   time: "Morning 7:15 AM"
    trainer: "Siva kumar reddy"
-   mode: "online zoom session"
+   mode: "Online zoom session"
   tasks:
    - name: Print variables
      ansible.builtin.debug:
-      msg: "Course:{{ course }}, Duration :{{ duration }}, Time:{{ time }}, Trainer:{{ trainer }}, Mode:{{ mode }}"
+      msg: "Course:{{ course }}, Duration:{{ duration }}, Time:{{ time }}, Trainer:{{ trainer }}, Mode:{{ mode }}"
