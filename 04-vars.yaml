@@ -10,4 +10,4 @@
   tasks:
    - name: Print variables
      ansible.builtin.debug:
-      msg: "course is:{{ course }}, duration is:{{ duration }}, time is:{{ time }}, trainer is:{{ trainer }}, mode is:{{ mode }}"
+      msg: "Course:{{ course }}, Duration :{{ duration }}, Time:{{ time }}, Trainer:{{ trainer }}, Mode:{{ mode }}"
