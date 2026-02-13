@@ -3,5 +3,7 @@
   tasks:
     - name: print hello World
       ansible.builtin.debug:
-        msg: "Hello World!"
-        msg1: "Hi Mansoor Khan, Please learn the DevOPS course as soon as possible, it is getting late in your journey"
+        msg: 
+         "Hello World!"
+         "Hi Mansoor Khan, Please learn the DevOPS course as soon as possible, it is getting late in your journey"
+         "Hello Mehran khan"
