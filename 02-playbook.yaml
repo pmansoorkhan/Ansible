@@ -4,4 +4,4 @@
     - name: print hello World
       ansible.builtin.debug:
         msg: "Hello World!"
-        msg: "Hi Mansoor Khan, Please learn the DevOPS course as soon as possible, it is getting late in your journey"
+        msg1: "Hi Mansoor Khan, Please learn the DevOPS course as soon as possible, it is getting late in your journey"
