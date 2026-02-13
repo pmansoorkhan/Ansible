@@ -13,7 +13,7 @@
      vars:
        course: Ansible
        ansible.builtin.debug:
-        msg: "Course:{{ course }}, Trainer:{{ trainer }}"
+         msg: "Course:{{ course }}, Trainer:{{ trainer }}"
 
 
 
