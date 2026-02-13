@@ -9,7 +9,7 @@
        course: Ansible
        trainer: mansoor khan 
     ansible.builtin.debug:
-       msg: "Course:{{ course }}, Duration:{{ duration }}, Time:{{ time }}, Trainer:{{ trainer }}, Mode:{{ mode }}"
+       msg: "Course:{{ course }}, Trainer:{{ trainer }}"
 
 
 
