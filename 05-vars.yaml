@@ -11,6 +11,7 @@
   - name: Print variables
     vars:
        course: Ansible
+       trainer: mansoor khan 
     ansible.builtin.debug:
        msg: "Course:{{ course }}, Trainer:{{ trainer }}"
 
