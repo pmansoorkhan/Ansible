@@ -1,8 +1,8 @@
 - name: variable preference
   hosts: local
   connection: local
-  vars: 
-   Name: " Ansible from play "
+  # vars: 
+  #  Name: " Ansible from play "
   # vars_files:
   #  - course.yaml 
   # vars_prompt:
@@ -20,3 +20,4 @@
       # 2.Task
       # 3.file 
       # 4. Prompt
+      # 5. play level
