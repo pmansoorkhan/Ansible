@@ -19,7 +19,7 @@
    - name: check if sum is less than 25
      ansible.builtin.debug:
       msg: " sum is less than 25 " 
-     when: sum (num1 + num2) < 25 
+     when: sum(num1 + num2) < 25 
 
 
 
