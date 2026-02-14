@@ -15,3 +15,5 @@
       msg: "Ansible from TASK"
      ansible.builtin.debug:
       msg: "Hi {{ Name }} "
+
+      # 1.Arguments-->  has high priority of executing the script 
