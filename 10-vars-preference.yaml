@@ -5,10 +5,10 @@
    Name: " Ansible from play "
   # vars_files:
   #  - course.yaml 
-  vars_prompt:
-   - name: Name
-     prompt: Please enter name
-     private: false
+  # vars_prompt:
+  #  - name: Name
+  #    prompt: Please enter name
+  #    private: false
   tasks:
    - name: print Name
     #  vars:
@@ -19,3 +19,4 @@
       # 1.Arguments-->  has high priority of executing the script 
       # 2.Task
       # 3.file 
+      # 4. Prompt
