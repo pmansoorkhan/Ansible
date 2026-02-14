@@ -8,3 +8,18 @@
      ansible.builtin.debug:
       msg: " yes, more than 5 seesions " 
      when: number_of_sessions > 5
+
+- name: check calculated sum
+  hosts: local
+  connection: local
+  vars:
+    num1: 10
+    num2: 12
+  tasks:
+   - name: check if sum is less than 25
+     ansible.builtin.debug:
+      msg: " sum is less than 25 " 
+     when: sum (num1 + num2) < 25 
+
+
+
