@@ -13,5 +13,5 @@
    - name: print Name
      vars:
       msg: "Ansible from TASK"
-     ansible.builtn.debug:
+     ansible.builtin.debug:
       msg: "Hi {{ Name }} "
