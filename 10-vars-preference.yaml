@@ -3,8 +3,8 @@
   connection: local
   vars: 
    Name: " Ansible from play "
-  vars_files:
-   - course.yaml 
+  # vars_files:
+  #  - course.yaml 
   vars_prompt:
    - name: Name
      prompt: Please enter name
@@ -18,3 +18,4 @@
 
       # 1.Arguments-->  has high priority of executing the script 
       # 2.Task
+      # 3.file 
