@@ -14,7 +14,7 @@
   connection: local
   vars:
     num1: 10
-    num2: 22
+    num2: 02
   tasks:
    - name: check if sum is less than 25
      ansible.builtin.debug:
