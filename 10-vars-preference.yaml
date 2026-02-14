@@ -10,7 +10,7 @@
      prompt: Please enter name
      private: false
   tasks:
-   - name: print Name
+   - name: print name
      vars:
       msg: "Ansible from TASK"
      ansible.builtn.debug:
