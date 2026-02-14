@@ -2,7 +2,7 @@
   hosts: local
   connection: local
   vars:
-   Number of sessions: 7
+   Number of sessions= 7
   tasks:
    - name: is ansible more sessions than 5 sessions 
      ansible.builtin.debug:
