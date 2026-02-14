@@ -11,9 +11,10 @@
      private: false
   tasks:
    - name: print Name
-     vars:
-      msg: "Ansible from TASK"
+    #  vars:
+    #   msg: "Ansible from TASK"
      ansible.builtin.debug:
       msg: "Hi {{ Name }} "
 
       # 1.Arguments-->  has high priority of executing the script 
+      # 2.Task
