@@ -7,9 +7,9 @@
   #    ansible.builtin.command: cat /etc/passwd | grep root
   #    register: users_output
 
-  - name: shell module testing 
-    ansible.builtin.shell: cat /etc/passwd | grep root
-    register: users_output
+  # - name: shell module testing 
+  #   ansible.builtin.shell: cat /etc/passwd | grep root
+  #   register: users_output
 
 
   # - name: print output
@@ -20,6 +20,9 @@
   #   ansible.builtin.shell:  - [ cat /etc/passwd | awk -F "/ "  '{ print $1F, $2F }' ]
   #     msg: "{{ users_output }}"    
 
+  - name: shell module testing 
+    ansible.builtin.shell: cat /etc/passwd 
+    register: users_output
 
 
   - name: Print username and shell from /etc/passwd
