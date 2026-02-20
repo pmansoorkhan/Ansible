@@ -1,0 +1,9 @@
+- name: ansible command vs shell module testing 
+  hosts: local
+  connection: local
+  tasks:
+   - name: command module testing 
+     ansible.builtin.command: cat /etc/passwd | grep root
+     register: users_output
+     
+      
