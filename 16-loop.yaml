@@ -1,4 +1,4 @@
-- name: demo on loop conditions
+- name: demo on loop 
   hosts: local
   connections: local
   tasks:
