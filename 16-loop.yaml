@@ -1,13 +1,13 @@
-- name: demo on loop 
-  hosts: local
-  connections: local
-  tasks:
-  - name: print names
-    ansible.builtin.debug:
+-  name: demo on loop 
+   hosts: local
+   connections: local
+   tasks:
+   - name: print names
+     ansible.builtin.debug:
       msg: "Hello,Good Morning {{ 'item'}}" 
-    loop:
-    - Mansoor khan
-    - Mehran khan 
-    - Shahina 
+     loop:
+     - Mansoor khan
+     - Mehran khan 
+     - Shahina 
 
        
