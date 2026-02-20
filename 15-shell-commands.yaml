@@ -7,29 +7,18 @@
   #    ansible.builtin.command: cat /etc/passwd | grep root
   #    register: users_output
 
-  # - name: shell module testing 
-  #   ansible.builtin.shell: cat /etc/passwd | grep root
-  #   register: users_output
+  - name: shell module testing 
+    ansible.builtin.shell: cat /etc/passwd | grep root
+    register: users_output
 
 
-  # - name: print output
-  #   ansible.builtin.debug:
-  #     msg: "{{ users_output }} " 
+  - name: print output
+    ansible.builtin.debug:
+      msg: "{{ users_output }} " 
 
-  # - name: print in design 
-  #   ansible.builtin.shell:  - [ cat /etc/passwd | awk -F "/ "  '{ print $1F, $2F }' ]
-  #     msg: "{{ users_output }}"    
-
-  # - name: shell module testing 
-  #   ansible.builtin.shell: cat /etc/passwd 
-  #   register: users_output
+      
 
 
-  - name: Print username and shell from /etc/passwd
-  ansible.builtin.shell: awk -F: '{ print $1, $7 }' /etc/passwd
-  register: users_output
 
-- name: Show users_output
-  ansible.builtin.debug:
-    msg: "{{ users_output.stdout_lines }}"
+
       
