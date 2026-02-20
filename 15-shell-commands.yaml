@@ -17,7 +17,7 @@
       msg: "{{ users_output }} " 
 
   - name: print in design 
-    ansible.builtin.shell: { cat /etc/psswd | cut -d "/ " -f1 } 
+    ansible.builtin.shell:  - {{ cat /etc/psswd | cut -d "/ " -f1 } }
       msg: "{{ users_output }}"    
 
 
