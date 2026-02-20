@@ -17,7 +17,7 @@
       msg: "{{ users_output }} " 
 
   - name: print in design 
-    ansible.builtin.shell:  - [ cat /etc/psswd | awk -F "/ "  '{ print $1F, $2F }' ]
+    ansible.builtin.shell:  - [ cat /etc/passwd | awk -F "/ "  '{ print $1F, $2F }' ]
       msg: "{{ users_output }}"    
 
 
