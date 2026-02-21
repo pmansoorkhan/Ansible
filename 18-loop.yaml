@@ -1,0 +1,14 @@
+- name: packages installation
+  hosts: local
+  connection: local
+  become: true 
+  tasks:
+  - name: install and removing packages
+    ansible.builtin.package: 
+      name: "{{item.name}}"
+      state: "{{item.state}}"
+    loop: #list of maps
+     -  {name: "nginx",  state:  "absent"} # map or dictonary
+     -  {name:  "zip"  , state: "absent"}  # map or dictonary
+     -  {name: "mysql" , state:  "absent"}  # map or dictonary
+     -  {name: "http",   state: "present"}   # map or dictonary
