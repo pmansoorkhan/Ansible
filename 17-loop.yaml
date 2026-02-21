@@ -3,7 +3,7 @@
   connection: local
   become: true 
   tasks:
-   - name: install required pacakges on the server 
+   - name: install pacakges
      ansible.builtin.packages: 
       name: "{{ item }}"
       state: present
