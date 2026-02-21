@@ -10,7 +10,8 @@
     duration: 4 MONTHS
     mode: online
    tagsmap:
-    {
+    [
+        {
             "key": "name",
             "value": "Ansible"
         },
@@ -26,6 +27,11 @@
             "key": "duration",
             "value": "4 MONTHS"
         },
+        {
+            "key": "mode",
+            "value": "online"
+        }
+    ]
 
   tasks: 
   - name: greetings
