@@ -4,5 +4,6 @@
   tasks: 
   - name: greetings
     ansible.builtin.debug:
-     msg : " Hi Mansoor, {{Greeting | default('Good morning')}} "
-     msg : " Hi Mansoor, {{Greeting | default('Got selected as devops engineer in NTT Data')}} "
+     msg : 
+       - " Hi Mansoor, {{Greeting | default('Good morning')}} "
+       - " Hi Mansoor, {{Greeting | default('Got selected as devops engineer in NTT Data')}} "
