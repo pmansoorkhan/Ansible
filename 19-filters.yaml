@@ -3,35 +3,35 @@
   connection: local
   vars:
    topics: linux aws docker ansible teraform gitbash powershell 
-   tagslist:
-    name: Ansible
-    course: aws with DevSecOps
-    project: roboshop
-    duration: 4 MONTHS
-    mode: online
   #  tagslist:
-  #   [
-  #       {
-  #           "key": "name",
-  #           "value": "Ansible"
-  #       },
-  #       {
-  #           "key": "course",
-  #           "value": "aws with DevSecOps"
-  #       },
-  #       {
-  #           "key": "project",
-  #           "value": "roboshop"
-  #       },
-  #       {
-  #           "key": "duration",
-  #           "value": "4 MONTHS"
-  #       },
-  #       {
-  #           "key": "mode",
-  #           "value": "online"
-  #       }
-  #   ]
+  #   name: Ansible
+  #   course: aws with DevSecOps
+  #   project: roboshop
+  #   duration: 4 MONTHS
+  #   mode: online
+   tagslist:
+    [
+        {
+            "key": "name",
+            "value": "Ansible"
+        },
+        {
+            "key": "course",
+            "value": "aws with DevSecOps"
+        },
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "duration",
+            "value": "4 MONTHS"
+        },
+        {
+            "key": "mode",
+            "value": "online"
+        }
+    ]
 
   tasks: 
   - name: greetings
@@ -44,10 +44,10 @@
     ansible.builtin.debug:
      msg: "{{ topics | split }}"  # converts string into list
 
-  - name: convert list to string
-    ansible.builtin.debug:
-     msg: "{{ tagslist | dict2items }}"    # converts list to string
-     
-  # - name: dict to list 
+  # - name: convert list to string
   #   ansible.builtin.debug:
-  #    msg:"{{ tagslist | items2dict }}"  # converts dict to list  
+  #    msg: "{{ tagslist | dict2items }}"    # converts list to string
+     
+  - name: dict to list 
+    ansible.builtin.debug:
+     msg:"{{ tagslist | items2dict }}"  # converts dict to list  
