@@ -3,6 +3,13 @@
   connection: local
   vars:
    topics: linux aws docker ansible teraform gitbash powershell 
+  tags:
+   name: ansible
+   course: aws with DevSecOps
+   project: roboshop
+   duration: 4 MONTHS
+   mode: online 
+
   tasks: 
   - name: greetings
     ansible.builtin.debug:
@@ -12,4 +19,8 @@
 
   - name: convert string to list 
     ansible.builtin.debug:
-     msg: "{{ topics | split }}"      
+     msg: "{{ topics | split }}"  
+
+  - name: convert list to string
+    ansible.builtin.debug:
+     msg: "{{ tags | dict2items }}"       
