@@ -50,4 +50,4 @@
      
   - name: map to list 
     ansible.builtin.debug:
-     msg:"{{ tagsmap | items2dict }}"  # converts dict to list  
+     msg:"{{ tagsmap | dict2items }}"  # converts dict to list  
