@@ -9,7 +9,7 @@
     project: roboshop
     duration: 4 MONTHS
     mode: online
-   tagsmap:
+   tagslist:
     [
         {
             "key": "name",
