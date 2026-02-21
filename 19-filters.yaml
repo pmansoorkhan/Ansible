@@ -4,11 +4,11 @@
   vars:
    topics: linux aws docker ansible teraform gitbash powershell 
   tags:
-   Name: Ansible
-   course: aws with DevSecOps
-   project: roboshop
-   duration: 4 MONTHS
-   mode: online 
+    name: Ansible
+    course: aws with DevSecOps
+    project: roboshop
+    duration: 4 MONTHS
+    mode: online 
 
   tasks: 
   - name: greetings
