@@ -8,7 +8,24 @@
     course: aws with DevSecOps
     project: roboshop
     duration: 4 MONTHS
-    mode: online 
+    mode: online
+   tagsmap:
+    {
+            "key": "name",
+            "value": "Ansible"
+        },
+        {
+            "key": "course",
+            "value": "aws with DevSecOps"
+        },
+        {
+            "key": "project",
+            "value": "roboshop"
+        },
+        {
+            "key": "duration",
+            "value": "4 MONTHS"
+        },
 
   tasks: 
   - name: greetings
@@ -23,4 +40,8 @@
 
   - name: convert list to string
     ansible.builtin.debug:
-     msg: "{{ tagslist | dict2items }}"    # converts list to string    
+     msg: "{{ tagslist | dict2items }}"    # converts list to string
+     
+  - name: map to list 
+    ansible.builtin.debug:
+     msg:"{{ tagsmap | item2dict }}"  # converts dict to list  
