@@ -19,8 +19,8 @@
 
   - name: convert string to list 
     ansible.builtin.debug:
-     msg: "{{ topics | split }}"  
+     msg: "{{ topics | split }}"  # converts string into list
 
   - name: convert list to string
     ansible.builtin.debug:
-     msg: "{{ tagslist | dict2items }}"       
+     msg: "{{ tagslist | dict2items }}"    # converts list to string    
