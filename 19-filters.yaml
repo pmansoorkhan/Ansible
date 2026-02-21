@@ -48,6 +48,6 @@
     ansible.builtin.debug:
      msg: "{{ tagslist | dict2items }}"    # converts list to string
      
-  - name: map to list 
+  - name: dict to list 
     ansible.builtin.debug:
-     msg:"{{ tagsmap | dict2items }}"  # converts dict to list  
+     msg:"{{ tagsmap | items2dict }}"  # converts dict to list  
