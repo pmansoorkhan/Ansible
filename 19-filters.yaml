@@ -3,7 +3,7 @@
   connection: local
   vars:
    topics: linux aws docker ansible teraform gitbash powershell 
-   tags:
+   tags list:
     name: Ansible
     course: aws with DevSecOps
     project: roboshop
@@ -23,4 +23,4 @@
 
   - name: convert list to string
     ansible.builtin.debug:
-     msg: "{{ tags | dict2items }}"       
+     msg: "{{ tags list | dict2items }}"       
