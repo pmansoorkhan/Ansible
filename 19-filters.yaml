@@ -4,7 +4,7 @@
   vars:
    topics: linux aws docker ansible teraform gitbash powershell 
   tags:
-   name: ansible
+   Name: ansible
    course: aws with DevSecOps
    project: roboshop
    duration: 4 MONTHS
