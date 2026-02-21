@@ -11,4 +11,3 @@
      -  {name: "nginx",  state:  "absent"} # map or dictonary
      -  {name:  "zip"  , state: "absent"}  # map or dictonary
      -  {name: "mysql" , state:  "absent"}  # map or dictonary
-     -  {name: "http",   state: "present"}   # map or dictonary
